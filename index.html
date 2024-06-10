@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="intro">
+      <h1>CapacityBay Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <div class="survey">
+      <form action="#" method="post">
+        <div class="fields">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="fields">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="fields">
+          <label for="age">Age (optional)</label>
+          <input type="number" placeholder="Enter your age">
+        </div>
+        <div class="fields">
+          <label for="role">Which option best describes your current role<label>
+          <select name="role" id="role">
+            <option value="null">Select curent role</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="unknown">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="fields">
+          <label for="refer">Would you recommend CapacityBay to a friend?</label>
+          <div>
+            <input type="radio" name="refer" id="refer">
+            <label for="definitely">Definitely</label>
+          </div>
+          <div>
+            <input type="radio" name="refer" id="refer">
+            <label for="maybe">Maybe</label>
+          </div>
+          <div>
+            <input type="radio" name="refer" id="refer">
+            <label for="notsure">Not sure</label>
+          </div>
+        </div>
+        <div class="fields">
+          <label for="fav">What is your favorite feature of CapacityBay?<label>
+          <select name="fav" id="fav">
+            <option value="null">Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open">Open Source</option>
+          </select>
+        </div>
+        <div class="fields">
+          <label for="improved">What would you like to see improved? (check all that apply)</label>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="frontend">Front-end Projects</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="backend">Back-end Projects</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="datavis">Data Visualization</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="challenges">Challenges</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="open">Open Source Community</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="gitter">Gitter help rooms</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="videos">Videos</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="meetups">City Meetups</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="wiki">Wiki</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="forum">Forum</label>
+          </div>
+          <div>
+            <input type="checkbox" name="improved" id="improved">
+            <label for="Additional">Additional Courses</label>
+          </div>
+        </div>
+        <div class="fields">
+          <label for="feedback">Any comments or suggestions?</label>
+          <textarea name="feedback" id="feedback" placeholder="Enter your comment here"></textarea>
+        </div>
+        <div class="btn">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
